@@ -172,7 +172,22 @@
   table.appendChild(thead);
   table.appendChild(tbody);
 
+  const empty = createElement('div', {
+    text: '暂无数据',
+    style: {
+      display: 'flex',
+      justifyContent: 'center',
+      alignItems: 'center',
+      height: '100px',
+    },
+  });
+
   const seedListNode = document.querySelector('.seed-list');
   seedListNode.textContent = '';
-  seedListNode.appendChild(table);
+
+  if (!data.length) {
+    seedListNode.appendChild(empty);
+  } else {
+    seedListNode.appendChild(table);
+  }
 })();
