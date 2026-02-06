@@ -94,7 +94,7 @@
   const colgroup = document.createElement('colgroup');
   colgroup.appendChild(document.createElement('col'));
   colgroup.appendChild(createElement('col', { style: { width: '90px' } }));
-  colgroup.appendChild(createElement('col', { style: { width: '100px' } }));
+  colgroup.appendChild(createElement('col', { style: { width: '120px' } }));
   colgroup.appendChild(createElement('col', { style: { width: '80px' } }));
 
   const thead = document.createElement('thead');
@@ -133,7 +133,11 @@
         style: { padding: '8px' },
       });
       const featureWrapper = createElement('div', {
-        style: { display: 'flex', alignItems: 'center', gap: '4px' },
+        style: {
+          display: 'flex',
+          flexWrap: 'wrap',
+          gap: '4px',
+        },
       });
 
       item.features.forEach((feature) => {
@@ -141,6 +145,7 @@
           className: 'seed-feature',
           style: {
             display: 'inline-flex',
+            flexShrink: 0,
             height: '20px',
             padding: '0 8px',
             alignItems: 'center',
