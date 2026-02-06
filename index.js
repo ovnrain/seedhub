@@ -5,6 +5,7 @@
 // @description  seedhub 磁力链接表格美化
 // @author       ovnrain
 // @match        https://www.seedhub.cc/movies/*
+// @grant        none
 // @icon         https://sh1.pcie.pppoe.top/static/img/favicon.png
 // ==/UserScript==
 
