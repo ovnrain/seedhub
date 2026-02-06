@@ -26,6 +26,10 @@ seedhub 是一个用于 seedhub.cc 详情页的用户脚本，主要把磁力链
 2. 打开任意 seedhub 电影详情页（例如 https://www.seedhub.cc/movies/xxxx）。
 3. 页面中的磁力链接区域会自动变为表格样式，无需额外操作。
 
+### 截图
+
+![脚本效果预览](./docs/preview1.jpg)
+
 ### 更新
 
 脚本通过 `@updateURL` 自动检查更新。你也可以在脚本管理面板中手动更新。
