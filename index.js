@@ -99,7 +99,7 @@ addGlobalStyle([
   const colgroup = document.createElement('colgroup');
   colgroup.appendChild(document.createElement('col'));
   colgroup.appendChild(createElement('col', { style: { width: '90px' } }));
-  colgroup.appendChild(createElement('col', { style: { width: '120px' } }));
+  colgroup.appendChild(createElement('col', { style: { width: '100px' } }));
   colgroup.appendChild(createElement('col', { style: { width: '80px' } }));
 
   const thead = document.createElement('thead');
@@ -112,7 +112,7 @@ addGlobalStyle([
       }),
     );
     tr.appendChild(createElement('th', { style: { padding: '8px' }, text: '大小' }));
-    tr.appendChild(createElement('th', { style: { padding: '8px' }, text: '特征' }));
+    tr.appendChild(createElement('th', { style: { padding: '8px' }, text: '质量' }));
     tr.appendChild(createElement('th', { style: { padding: '8px' }, text: '日期' }));
     thead.appendChild(tr);
   }
