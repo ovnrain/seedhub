@@ -10,18 +10,6 @@
 
 (function () {
   'use strict';
-  // console.log('123')
-
-  /* function addGlobalStyle(rules) {
-    const sheet = new CSSStyleSheet();
-    rules.forEach((rule) => sheet.insertRule(rule));
-    document.adoptedStyleSheets = [...document.adoptedStyleSheets, sheet];
-}
-
-addGlobalStyle([
-    '.page .content { padding-left: 32px; padding-right: 32px; }',
-    '.page .content .nav-links { padding: 8px 0 !important; }',
-]); */
 
   function addGlobalStyle(rules) {
     const head = document.head || document.getElementsByTagName('head')[0];
