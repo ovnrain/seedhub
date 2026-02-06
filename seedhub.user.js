@@ -141,7 +141,7 @@
           className: 'seed-feature',
           style: {
             display: 'inline-flex',
-            height: '24px',
+            height: '20px',
             padding: '0 8px',
             alignItems: 'center',
             fontSize: '12px',
