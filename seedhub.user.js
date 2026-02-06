@@ -1,12 +1,18 @@
 // ==UserScript==
 // @name         seedhub
-// @namespace    http://tampermonkey.net/
-// @version      2026-02-07
+// @namespace    https://github.com/ovnrain/seedhub
+// @version      1.0.0
 // @description  seedhub 磁力链接表格美化
 // @author       ovnrain
+// @license	     MIT
 // @match        https://www.seedhub.cc/movies/*
-// @grant        none
 // @icon         https://sh1.pcie.pppoe.top/static/img/favicon.png
+// @homepageURL  https://github.com/ovnrain/seedhub
+// @supportURL   https://github.com/ovnrain/seedhub/issues
+// @updateURL    https://raw.githubusercontent.com/ovnrain/seedhub/main/seedhub.user.js
+// @downloadURL  https://raw.githubusercontent.com/ovnrain/seedhub/main/seedhub.user.js
+// @grant        none
+// @run-at       document-end
 // ==/UserScript==
 
 (function () {
